@@ -22,10 +22,11 @@ Task-Metapackage: exclude-aurex-inf
  * python-spice-client-gtk
  * virt-viewer
  * ssh-askpass-gnome
- * python-guestf
+ * python-guestfs
 
 = network tools =
  * wireshark
+ * packet-tracer-installer
 
 = development =
  * (android-sdk-installer)
