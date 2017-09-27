@@ -10,6 +10,8 @@ mysql-client
 mysql-workbench
 netbeans-installer
 openssh-server
+packet-tracer-installer
+python-guestfs
 python-spice-client-gtk
 qemu-kvm
 spice-client-gtk

@@ -1,3 +1,25 @@
+aurex-meta (2.206~aurex16.04.31) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added android-sdk-installer to aurex-asir-recommends, aurex-daw-
+    recommends, aurex-inf-recommends, aurex-smr-recommends
+  * Added android-studio-installer to aurex-asir-recommends, aurex-daw-
+    recommends, aurex-inf-recommends, aurex-smr-recommends
+  * Added ausias-self-service-password-artwork to aurex-supported
+    [amd64]
+  * Added ausias-self-service-password-settings to aurex-supported
+    [amd64]
+  * Added python-guestfs to aurex-asir, aurex-daw, aurex-inf, aurex-smr
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Refreshed dependencies
+  * Added packet-tracer-installer to aurex-asir, aurex-daw, aurex-inf,
+    aurex-smr
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 27 Sep 2017 09:18:44 +0200
+
 aurex-meta (2.206~aurex16.04.29) xenial; urgency=medium
 
   * Refreshed dependencies
