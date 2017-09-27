@@ -1,0 +1,4 @@
+libcairo-perl        install
+libglib-perl        install
+libgtk2-perl        install
+libpango-perl        install
