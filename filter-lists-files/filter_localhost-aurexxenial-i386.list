@@ -1,5 +1,8 @@
 acroread        install
 acroread-bin        install
+android-devel-downloader        install
+android-sdk-installer        install
+android-studio-installer        install
 aurex-asir        install
 aurex-atspi-fix        install
 aurex-boot-theme        install
@@ -61,6 +64,7 @@ ausias-papercut-client        install
 ausias-printers-centro        install
 ausias-printers-depinf        install
 ausias-printers-secretaria        install
+eclipse-adt-plugin        install
 eclipse-jee-installer        install
 eclipse-neon-1rc3-base        install
 eclipse-neon-installer        install
@@ -73,6 +77,7 @@ libtalloc2        install
 libwbclient0        install
 netbeans-8.1-installer        install
 netbeans-installer        install
+packet-tracer-installer        install
 python-ldb        install
 python-samba        install
 python-talloc        install

@@ -1,3 +1,14 @@
+aurex-meta (2.206~aurex16.04.36) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed oracle-java8-installer from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends
+  * Removed oracle-java8-set-default from aurex-desktop, aurex-desktop-
+    depinf, aurex-desktop-secretaria, ausias-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 11 May 2018 20:13:03 +0200
+
 aurex-meta (2.206~aurex16.04.35) xenial; urgency=medium
 
   * Refreshed dependencies

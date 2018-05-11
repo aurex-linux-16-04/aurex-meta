@@ -1,4 +1,5 @@
 libcairo-perl        install
+libcapnp-0.5.3        install
 libglib-perl        install
 libgtk2-perl        install
 libpango-perl        install

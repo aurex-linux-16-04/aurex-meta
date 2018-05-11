@@ -11,6 +11,7 @@ Task-Metapackage: exclude-aurex-support
  * oracle-java7-installer
  * oracle-java8-installer 
  * oracle-java8-unlimited-jce-policy
+ * oracle-java9-installer 
  * oracle-java9-unlimited-jce-policy
 
 = virtualization libvirt =

@@ -1,5 +1,8 @@
 acroread        install
 acroread-bin:i386        install
+android-devel-downloader        install
+android-sdk-installer        install
+android-studio-installer        install
 aurex-asir        install
 aurex-atspi-fix        install
 aurex-boot-theme        install
@@ -14,7 +17,6 @@ aurex-ctrl-alt-del        install
 aurex-daw        install
 aurex-default-associations        install
 aurex-default-settings        install
-aurex-desktop        install
 aurex-desktop-depinf        install
 aurex-desktop-secretaria        install
 aurex-fs-utils        install
@@ -61,6 +63,9 @@ ausias-papercut-client        install
 ausias-printers-centro        install
 ausias-printers-depinf        install
 ausias-printers-secretaria        install
+ausias-self-service-password-artwork        install
+ausias-self-service-password-settings        install
+eclipse-adt-plugin        install
 eclipse-jee-installer        install
 eclipse-neon-1rc3-base        install
 eclipse-neon-installer        install
@@ -75,6 +80,7 @@ netbeans-8.1-installer        install
 netbeans-installer        install
 nspluginviewer:i386        install
 nspluginwrapper        install
+packet-tracer-installer        install
 python-ldb        install
 python-samba        install
 python-talloc        install
