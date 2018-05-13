@@ -47,9 +47,6 @@ autoconf        install
 automake        install
 autopoint        install
 autotools-dev        install
-avahi-autoipd        install
-avahi-daemon        install
-avahi-utils        install
 axel        install
 bc        install
 binfmt-support        install
@@ -82,6 +79,8 @@ dconf-service        install
 debconf-utils        install
 debian-archive-keyring        install
 debugedit        install
+default-jre        install
+default-jre-headless        install
 desktop-base        install
 dexdump        install
 dh-strip-nondeterminism        install
@@ -177,7 +176,6 @@ fonts-unfonts-core        install
 fonts-wqy-microhei        install
 foomatic-db-compressed-ppds        install
 freepats        install
-friendly-recovery        install
 ftp        install
 fusioninventory-agent        install
 g++        install
@@ -261,7 +259,6 @@ gir1.2-gnomekeyring-1.0        install
 gir1.2-gtkclutter-1.0        install
 gir1.2-gtksource-3.0        install
 gir1.2-gudev-1.0        install
-gir1.2-ibus-1.0        install
 gir1.2-json-1.0        install
 gir1.2-libosinfo-1.0        install
 gir1.2-libvirt-glib-1.0        install
@@ -279,7 +276,6 @@ glusterfs-client        install
 glusterfs-common        install
 glusterfs-dbg        install
 glusterfs-server        install
-gnome-accessibility-themes        install
 gnome-bluetooth        install
 gnome-desktop3-data        install
 gnome-icon-theme        install
@@ -292,8 +288,6 @@ gnome-sushi        install
 gnome-system-tools        install
 gnome-terminal        install
 gnome-terminal-data        install
-gnome-themes-standard        install
-gnome-themes-standard-data        install
 gnome-user-guide        install
 gnome-user-share        install
 gnome-video-effects        install
@@ -319,7 +313,6 @@ gtk2-engines        install
 gucharmap        install
 hardening-includes        install
 hddtemp        install
-hdparm        install
 hfsplus        install
 hicolor-icon-theme        install
 hplip        install
@@ -329,9 +322,6 @@ hunspell-ca        install
 hunspell-en-us        install
 hwdata        install
 i965-va-driver        install
-ibus        install
-ibus-gtk        install
-ibus-gtk3        install
 icoutils        install
 ifenslave        install
 indicator-applet        install
@@ -351,7 +341,6 @@ ippusbxd        install
 iptables        install
 iputils-arping        install
 iputils-tracepath        install
-ipxe-qemu        install
 irqbalance        install
 iso-codes        install
 iw        install
@@ -420,15 +409,6 @@ libatspi2.0-0        install
 libattr1-dev        install
 libaudio2        install
 libauthen-sasl-perl        install
-libavahi-client3        install
-libavahi-client3:i386        install
-libavahi-common-data        install
-libavahi-common-data:i386        install
-libavahi-common3        install
-libavahi-common3:i386        install
-libavahi-core7        install
-libavahi-glib1        install
-libavahi-ui-gtk3-0        install
 libavc1394-0        install
 libbabeltrace-ctf1        install
 libbabeltrace1        install
@@ -511,7 +491,6 @@ libdata-alias-perl        install
 libdata-random-perl        install
 libdatrie1        install
 libdatrie1:i386        install
-libdb5.3:i386        install
 libdbus-glib-1-2        install
 libdbusmenu-qt5        install
 libdc1394-22        install
@@ -594,7 +573,6 @@ libfontenc1        install
 libfreexl1        install
 libgarcon-1-0        install
 libgarcon-common        install
-libgcab-1.0-0        install
 libgcc1:i386        install
 libgcj-common        install
 libgck-1-0        install
@@ -714,7 +692,6 @@ libhttp-parser2.1        install
 libhttp-server-simple-perl        install
 libhunspell-1.3-0        install
 libhyphen0        install
-libibus-1.0-5        install
 libibverbs1        install
 libical1a        install
 libice6        install
@@ -875,8 +852,6 @@ libmail-sendmail-perl        install
 libmailtools-perl        install
 libmarkdown2        install
 libmatroska6v5        install
-libmbim-glib4        install
-libmbim-proxy        install
 libmcrypt4        install
 libmeanwhile1        install
 libmediaart-2.0-0        install
@@ -885,12 +860,10 @@ libmhash2        install
 libmimic0        install
 libminizip1        install
 libmjpegutils-2.1-0        install
-libmm-glib0        install
 libmms0        install
 libmng2        install
 libmodplug1        install
 libmouse-perl        install
-libmozjs-24-0v5        install
 libmp3lame0        install
 libmpc3        install
 libmpcdec6        install
@@ -988,8 +961,6 @@ libpaper-utils        install
 libpaper1        install
 libparse-debianchangelog-perl        install
 libparse-edid-perl        install
-libparted-fs-resize0        install
-libparted2        install
 libpath-class-perl        install
 libpcap0.8        install
 libpciaccess0        install
@@ -1001,7 +972,6 @@ libpeas-1.0-0        install
 libpeas-1.0-0-python3loader        install
 libpeas-common        install
 libperl4-corelibs-perl        install
-libperl5.22        install
 libperlio-gzip-perl        install
 libphonon4qt5-4        install
 libpipeline1        install
@@ -1025,11 +995,7 @@ libproxy1v5        install
 libpugixml1v5        install
 libpwquality-common        install
 libpwquality1        install
-libpython-stdlib        install
 libqgsttools-p1        install
-libqmi-glib1        install
-libqmi-proxy        install
-libqpdf17        install
 libqqwing2v5        install
 libqt4-dbus        install
 libqt4-declarative        install
@@ -1067,7 +1033,6 @@ libraptor2-0        install
 librarian0        install
 librasqal3        install
 libraw1394-11        install
-libraw15        install
 librdf0        install
 librdmacm1        install
 libreadline5        install
@@ -1089,7 +1054,6 @@ libsasl2-modules-gssapi-mit        install
 libsasl2-modules:i386        install
 libsbc1        install
 libschroedinger-1.0-0        install
-libsdl-image1.2        install
 libsdl-ttf2.0-0        install
 libsdl1.2debian        install
 libsecret-1-0        install
@@ -1113,8 +1077,6 @@ libsm6        install
 libsm6:i386        install
 libsmi2ldbl        install
 libsnappy1v5        install
-libsnmp-base        install
-libsnmp30        install
 libsocket-getaddrinfo-perl        install
 libsocket6-perl        install
 libsodium18        install
@@ -1203,11 +1165,6 @@ libvisual-0.4-0        install
 libvo-aacenc0        install
 libvo-amrwbenc0        install
 libvoikko1        install
-libvorbis0a        install
-libvorbis0a:i386        install
-libvorbisenc2        install
-libvorbisenc2:i386        install
-libvorbisfile3        install
 libvpx3        install
 libvpx3:i386        install
 libvsqlitepp3v5        install
@@ -1215,8 +1172,8 @@ libvte-2.91-0        install
 libvte-2.91-common        install
 libvte-common        install
 libvte9        install
-libwavpack1        install
 libwebp5        install
+libwebpdemux1        install
 libwebpmux1        install
 libwebrtc-audio-processing-0        install
 libwildmidi-config        install
@@ -1277,8 +1234,6 @@ libxcb1        install
 libxcb1:i386        install
 libxcomposite1        install
 libxcomposite1:i386        install
-libxcursor1        install
-libxcursor1:i386        install
 libxdamage1        install
 libxdamage1:i386        install
 libxdmcp6        install
@@ -1308,7 +1263,6 @@ libxkbcommon-x11-0        install
 libxkbcommon0        install
 libxkbfile1        install
 libxklavier16        install
-libxml-libxml-perl        install
 libxml-namespacesupport-perl        install
 libxml-parser-perl        install
 libxml-sax-base-perl        install
@@ -1376,7 +1330,6 @@ menulibre        install
 mesa-utils        install
 mlocate        install
 mobile-broadband-provider-info        install
-modemmanager        install
 mountall        install
 mousepad        install
 mousetweaks        install
@@ -1416,15 +1369,11 @@ p7zip        install
 p7zip-full        install
 p7zip-rar        install
 parole        install
-parted        install
 pastebinit        install
-patch        install
 patchutils        install
 pavucontrol        install
 pcmciautils        install
 pdftk        install
-perl        install
-perl-modules-5.22        install
 pidgin-libnotify        install
 pidgin-otr        install
 pinentry-curses        install
@@ -1460,8 +1409,6 @@ proguard        install
 proj-bin        install
 proj-data        install
 psmisc        install
-python        install
-python-apt-common        install
 python-bs4        install
 python-cairo        install
 python-cffi-backend        install
@@ -1491,18 +1438,15 @@ python-kaa-metadata        install
 python-keyring        install
 python-lazr.restfulclient        install
 python-lazr.uri        install
-python-libvirt        install
 python-lxml        install
 python-lzma        install
 python-magic        install
-python-minimal        install
 python-mutagen        install
 python-mysql.connector        install
 python-ndg-httpsclient        install
 python-numpy        install
 python-oauth        install
 python-openssl        install
-python-paramiko        install
 python-pexpect        install
 python-pkg-resources        install
 python-psutil        install
@@ -1527,7 +1471,6 @@ python-wstools        install
 python-xdg        install
 python-zeitgeist        install
 python-zope.interface        install
-python3-apt        install
 python3-aptdaemon        install
 python3-aptdaemon.gtk3widgets        install
 python3-aptdaemon.pkcompat        install
@@ -1572,7 +1515,6 @@ qml-module-qtquick-layouts        install
 qml-module-qtquick-privatewidgets        install
 qml-module-qtquick-window2        install
 qml-module-qtquick2        install
-qpdf        install
 qt-at-spi        install
 qtchooser        install
 qtcore4-l10n        install
@@ -1597,7 +1539,6 @@ rpcbind        install
 rpm        install
 rpm-common        install
 rpm2cpio        install
-rsync        install
 rtkit        install
 screen        install
 scrub        install
@@ -1607,12 +1548,14 @@ session-migration        install
 sessioninstaller        install
 sgml-base        install
 sgml-data        install
-sharutils        install
 shimmer-themes        install
 shutter        install
 signon-keyring-extension        install
 signon-plugin-oauth2        install
 signon-plugin-password        install
+signon-ui        install
+signon-ui-service        install
+signon-ui-x11        install
 signond        install
 simple-scan        install
 sonnet-plugins        install
@@ -1624,12 +1567,9 @@ spice-client-glib-usb-acl-helper        install
 spice-client-gtk        install
 split-select        install
 sqlite3        install
-squashfs-tools        install
-ssh-import-id        install
 sshfs        install
 ssl-cert        install
 strace        install
-supermin        install
 swh-plugins        install
 synaptic        install
 syslinux        install
@@ -1656,8 +1596,6 @@ tk8.6        install
 toshset        install
 traceroute        install
 transfig        install
-transmission-common        install
-transmission-gtk        install
 tree        install
 ttf-ancient-fonts-symbola        install
 ttf-bitstream-vera        install
@@ -1707,7 +1645,6 @@ x11-xserver-utils        install
 xauth        install
 xbitmaps        install
 xcursor-themes        install
-xdg-user-dirs        install
 xdg-user-dirs-gtk        install
 xfburn        install
 xfce4-appfinder        install

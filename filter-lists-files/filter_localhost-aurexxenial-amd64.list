@@ -17,6 +17,7 @@ aurex-ctrl-alt-del        install
 aurex-daw        install
 aurex-default-associations        install
 aurex-default-settings        install
+aurex-desktop        install
 aurex-desktop-depinf        install
 aurex-desktop-secretaria        install
 aurex-fs-utils        install

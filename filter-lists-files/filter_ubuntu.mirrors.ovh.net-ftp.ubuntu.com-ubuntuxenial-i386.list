@@ -29,7 +29,6 @@ libbz2-1.0:i386        install
 libcap2-bin        install
 libcap2:i386        install
 libcomerr2:i386        install
-libdb5.3:i386        install
 libdebconfclient0:i386        install
 libdevmapper1.02.1:i386        install
 libestr0        install
@@ -50,10 +49,6 @@ libncurses5:i386        install
 libncursesw5:i386        install
 libnewt0.52:i386        install
 libnih1:i386        install
-libpam-modules-bin        install
-libpam-modules:i386        install
-libpam-runtime        install
-libpam0g:i386        install
 libpcre3:i386        install
 libpng12-0:i386        install
 libpopt0:i386        install
@@ -62,7 +57,6 @@ libreadline6:i386        install
 libsasl2-2:i386        install
 libsasl2-modules-db:i386        install
 libsasl2-modules:i386        install
-libseccomp2:i386        install
 libselinux1:i386        install
 libsemanage-common        install
 libsemanage1:i386        install
@@ -77,7 +71,6 @@ libtinfo5:i386        install
 libusb-0.1-4:i386        install
 libustr-1.0-1:i386        install
 libxtables11:i386        install
-linux-base        install
 mawk        install
 mime-support        install
 ncurses-base        install
@@ -85,13 +78,11 @@ ncurses-bin        install
 net-tools        install
 netbase        install
 netcat-openbsd        install
-perl-base        install
 python3        install
 python3-minimal        install
 readline-common        install
 rsyslog        install
 sed        install
-sensible-utils        install
 sysv-rc        install
 sysvinit-utils        install
 ubuntu-keyring        install
