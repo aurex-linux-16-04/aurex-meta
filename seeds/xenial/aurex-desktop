@@ -131,8 +131,8 @@ Task-Metapackage: aurex-desktop
  * (winetricks)
 
 = java =
- * oracle-java9-installer
- * oracle-java9-set-default
+ * oracle-java10-installer
+ * oracle-java10-set-default
 # * (oracle-java8-installer)
 # * oracle-java8-set-default
 
