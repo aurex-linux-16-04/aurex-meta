@@ -1,3 +1,19 @@
+aurex-meta (2.206~aurex16.04.37) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added oracle-java10-installer to aurex-desktop [amd64], aurex-
+    desktop-depinf [amd64], aurex-desktop-secretaria [amd64], aurex-
+    supported [amd64], ausias-desktop [amd64]
+  * Added oracle-java10-set-default to aurex-desktop [amd64], aurex-
+    desktop-depinf [amd64], aurex-desktop-secretaria [amd64], aurex-
+    supported [amd64], ausias-desktop [amd64]
+  * Added oracle-java8-set-default to aurex-supported
+  * Added oracle-java9-installer to aurex-supported [amd64]
+  * Added oracle-java9-set-default to aurex-supported [amd64]
+  * Added oracle-java9-unlimited-jce-policy to aurex-supported [amd64]
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 14 May 2018 19:15:17 +0200
+
 aurex-meta (2.206~aurex16.04.36) xenial; urgency=medium
 
   * Refreshed dependencies
