@@ -1,2 +1,2 @@
-[arch=amd64] deb http://ppa.launchpad.net/linuxuprising/java/ubuntu xenial main 
-[arch=amd64] deb-src http://ppa.launchpad.net/linuxuprising/java/ubuntu xenial main 
+deb http://ppa.launchpad.net/linuxuprising/java/ubuntu xenial main 
+deb-src http://ppa.launchpad.net/linuxuprising/java/ubuntu xenial main 
