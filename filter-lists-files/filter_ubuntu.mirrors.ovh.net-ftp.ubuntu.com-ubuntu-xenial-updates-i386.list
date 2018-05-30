@@ -1,6 +1,8 @@
 accountsservice        install
 adwaita-icon-theme        install
 apparmor        install
+apport        install
+apport-gtk        install
 appstream        install
 apturl        install
 apturl-common        install
@@ -188,6 +190,7 @@ libllvm5.0        install
 libmbim-glib4        install
 libmbim-proxy        install
 libmm-glib0        install
+libmozjs-24-0v5        install
 libnautilus-extension1a        install
 libnm-glib-vpn1        install
 libnm-glib4        install
@@ -197,7 +200,6 @@ libnm-util2        install
 libnm0        install
 libnma-common        install
 libnma0        install
-libnuma1        install
 libosmesa6        install
 libpackagekit-glib2-16        install
 libpam-systemd        install
@@ -292,8 +294,10 @@ python-minimal        install
 python-urllib3        install
 python2.7        install
 python2.7-minimal        install
+python3-apport        install
 python3-apt        install
 python3-commandnotfound        install
+python3-problem-report        install
 python3-software-properties        install
 python3-urllib3        install
 sane-utils        install

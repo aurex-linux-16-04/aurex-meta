@@ -79,8 +79,6 @@ dconf-service        install
 debconf-utils        install
 debian-archive-keyring        install
 debugedit        install
-default-jre        install
-default-jre-headless        install
 desktop-base        install
 dexdump        install
 dh-strip-nondeterminism        install

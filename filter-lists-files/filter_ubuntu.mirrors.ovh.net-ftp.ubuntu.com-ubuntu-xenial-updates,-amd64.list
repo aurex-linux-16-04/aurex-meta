@@ -2,8 +2,6 @@ apache2        install
 apache2-bin        install
 apache2-data        install
 apache2-utils        install
-apport        install
-apport-gtk        install
 augeas-lenses        install
 bind9-host        install
 binutils        install
@@ -216,6 +214,7 @@ libnss-sss:i386        install
 libnss3        install
 libnss3-1d        install
 libnss3-nssdb        install
+libnuma1        install
 libobjc-5-dev        install
 libobjc4        install
 libopenjp2-7        install
@@ -318,8 +317,6 @@ mysql-client-5.7        install
 mysql-client-core-5.7        install
 mysql-common        install
 ntfs-3g        install
-openjdk-8-jre        install
-openjdk-8-jre-headless        install
 openssh-client        install
 openssh-server        install
 openssh-sftp-server        install
@@ -351,10 +348,8 @@ python-libxml2        install
 python-paramiko        install
 python-pil        install
 python-sss        install
-python3-apport        install
 python3-distupgrade        install
 python3-pil        install
-python3-problem-report        install
 qpdf        install
 rsync        install
 sharutils        install

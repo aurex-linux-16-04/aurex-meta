@@ -8,7 +8,6 @@ libbluetooth3        install
 libcollection4        install
 libdhash1        install
 libini-config5        install
-libmozjs-24-0v5        install
 libpath-utils1        install
 libplymouth4        install
 libref-array1        install

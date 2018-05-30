@@ -188,7 +188,6 @@ libbluetooth3
 libcollection4
 libdhash1
 libini-config5
-libmozjs-24-0v5
 libpath-utils1
 libplymouth4
 libref-array1
@@ -217,8 +216,6 @@ update-manager-core
 uuid-runtime
 vlan
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ xenial-updates,
-apport
-apport-gtk
 augeas-lenses
 bind9-host
 binutils
@@ -405,6 +402,7 @@ libnss-sss
 libnss3
 libnss3-1d
 libnss3-nssdb
+libnuma1
 libobjc-5-dev
 libobjc4
 libopenjp2-7
@@ -515,10 +513,8 @@ python-libxml2
 python-paramiko
 python-pil
 python-sss
-python3-apport
 python3-distupgrade
 python3-pil
-python3-problem-report
 qpdf
 rsync
 sharutils
@@ -563,6 +559,8 @@ xul-ext-ubufox
 accountsservice
 adwaita-icon-theme
 apparmor
+apport
+apport-gtk
 appstream
 apturl
 apturl-common
@@ -750,6 +748,7 @@ libllvm5.0
 libmbim-glib4
 libmbim-proxy
 libmm-glib0
+libmozjs-24-0v5
 libnautilus-extension1a
 libnm-glib-vpn1
 libnm-glib4
@@ -759,7 +758,6 @@ libnm-util2
 libnm0
 libnma-common
 libnma0
-libnuma1
 libosmesa6
 libpackagekit-glib2-16
 libpam-systemd
@@ -854,8 +852,10 @@ python-minimal
 python-urllib3
 python2.7
 python2.7-minimal
+python3-apport
 python3-apt
 python3-commandnotfound
+python3-problem-report
 python3-software-properties
 python3-urllib3
 sane-utils

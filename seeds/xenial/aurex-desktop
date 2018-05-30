@@ -131,10 +131,10 @@ Task-Metapackage: aurex-desktop
  * (winetricks)
 
 = java =
- * oracle-java10-installer
- * oracle-java10-set-default
-# * (oracle-java8-installer)
-# * oracle-java8-set-default
+ * oracle-java10-installer [amd64]
+ * oracle-java10-set-default [amd64]
+ * oracle-java8-installer [i386]
+ * oracle-java8-set-default [i386]
 
 = networking =
 # * aurex-openvpn-nm

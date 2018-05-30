@@ -62,6 +62,12 @@ libreoffice-writer
 python3-uno
 uno-libs3
 ure
+# -> http://ppa.launchpad.net/linuxuprising/java/ubuntu xenial
+oracle-java10-installer
+oracle-java10-set-default
+oracle-java9-installer
+oracle-java9-set-default
+oracle-java9-unlimited-jce-policy
 # -> http://localhost/aurex xenial
 acroread
 acroread-bin:i386
@@ -194,7 +200,6 @@ libbluetooth3
 libcollection4
 libdhash1
 libini-config5
-libmozjs-24-0v5
 libpath-utils1
 libplymouth4
 libref-array1
@@ -229,8 +234,6 @@ apache2
 apache2-bin
 apache2-data
 apache2-utils
-apport
-apport-gtk
 augeas-lenses
 bind9-host
 binutils
@@ -443,6 +446,7 @@ libnss-sss:i386
 libnss3
 libnss3-1d
 libnss3-nssdb
+libnuma1
 libobjc-5-dev
 libobjc4
 libopenjp2-7
@@ -545,8 +549,6 @@ mysql-client-5.7
 mysql-client-core-5.7
 mysql-common
 ntfs-3g
-openjdk-8-jre
-openjdk-8-jre-headless
 openssh-client
 openssh-server
 openssh-sftp-server
@@ -578,10 +580,8 @@ python-libxml2
 python-paramiko
 python-pil
 python-sss
-python3-apport
 python3-distupgrade
 python3-pil
-python3-problem-report
 qpdf
 rsync
 sharutils
@@ -626,6 +626,8 @@ xul-ext-ubufox
 accountsservice
 adwaita-icon-theme
 apparmor
+apport
+apport-gtk
 appstream
 apturl
 apturl-common
@@ -638,7 +640,6 @@ bash-completion
 brltty
 brltty-x11
 btrfs-tools
-ca-certificates-java
 cifs-utils
 command-not-found
 command-not-found-data
@@ -836,6 +837,7 @@ libllvm5.0:i386
 libmbim-glib4
 libmbim-proxy
 libmm-glib0
+libmozjs-24-0v5
 libnautilus-extension1a
 libnm-glib-vpn1
 libnm-glib4
@@ -845,7 +847,6 @@ libnm-util2
 libnm0
 libnma-common
 libnma0
-libnuma1
 libosmesa6
 libosmesa6:i386
 libp11-kit0:i386
@@ -953,8 +954,10 @@ python-minimal
 python-urllib3
 python2.7
 python2.7-minimal
+python3-apport
 python3-apt
 python3-commandnotfound
+python3-problem-report
 python3-software-properties
 python3-urllib3
 sane-utils
@@ -1081,8 +1084,6 @@ dconf-service
 debconf-utils
 debian-archive-keyring
 debugedit
-default-jre
-default-jre-headless
 desktop-base
 dexdump
 dh-strip-nondeterminism
